@@ -12,17 +12,31 @@ describe Cat do
     expect(cat.name).to eq("crookshanks")
   end
 
+<<<<<<< HEAD
   it "can't change its name" do
     expect { cat.name = "mr. whiskers" }.to raise_error NoMethodError
+=======
+  it "can't change its name" do 
+    expect { cat.name = "mr. whiskers" }.to raise_error
+>>>>>>> 898b7dcc55022a3d1925f70b694c7bd6b2d1884a
   end
 
   it "initializes with a nervous mood" do
     expect(cat.mood).to eq("nervous")
   end
 
+<<<<<<< HEAD
   it "can change its mood" do
     cat.mood = "playful"
     expect(cat.mood).to eq("playful")
   end
 
 end
+=======
+  it "can change its mood" do 
+    cat.mood = "playful"
+    expect(cat.mood).to eq("playful")
+  end
+  
+end
+>>>>>>> 898b7dcc55022a3d1925f70b694c7bd6b2d1884a
